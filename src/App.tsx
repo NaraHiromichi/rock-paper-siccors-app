@@ -23,7 +23,7 @@ function App() {
   const [selected, setSelected] = useState<Sign | undefined>();
   const [random, setRandom] = useState<Sign | undefined>();
   const [whoWin, setWhoWin] = useState<string | null>(null);
-  const [score, setScore] = useState<number | undefined>();
+  const [score, setScore] = useState<number | undefined>(0);
   const [toggleRules, setToggleRules] = useState<boolean>(false);
 
   const signs = [
